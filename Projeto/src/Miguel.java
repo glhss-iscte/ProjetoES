@@ -11,7 +11,6 @@ public class Miguel {
 			return true;
 		}
 		else return false;
-	}
-	
+	}	
 
 }
