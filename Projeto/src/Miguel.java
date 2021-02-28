@@ -6,11 +6,21 @@ public class Miguel {
 		this.num = num;
 	}
 	
-	public boolean Par(int num) {
+	public void Par() {
 		if(num%2==0) {
-			return true;
+			System.out.println("É Par!!");
 		}
-		else return false;
+		else{
+			System.out.println("Não é Par!!");
+		}
 	}	
+	
+	
+	
+	public static void main(String[] args) {
+		Miguel m = new Miguel(3);
+		m.Par();
+
+	}
 
 }
